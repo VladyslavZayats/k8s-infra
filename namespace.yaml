@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Namespace
+metadata: 
+  name: go-server-namespace
+  labels: 
+    app: go-server
+  annotations:
+    description: "Namespace for go-server"
